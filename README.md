@@ -1,6 +1,6 @@
 # Run_analysis
 
-This repo contains the files related to the Assignment 2 of the "Data preparation and cleaning" course
+This repo contains the files related to the Assignment 2 of the "Getting and cleaning data" course
 ## File "analysis_dataset.R":
         --Contains an R script, which was used to to download the original dataset,
         transform it and write the resulting one
