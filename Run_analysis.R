@@ -61,5 +61,5 @@ names(dat_result)<-names(dat)
 ##if(!file.exists("analysis_dataset.txt"))
         write.table(dat_result, file="analysis_dataset.txt", row.names=FALSE,quote = FALSE)
        
-        ##control: ww<-read.table(file="assign2.txt",  colClasses = "character") 
+        ##control: ww<-read.table(file="analysis_dataset.txt",  colClasses = "character") 
          
