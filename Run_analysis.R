@@ -26,7 +26,7 @@ activity_lables<-read.table(file="UCI HAR Dataset\\activity_labels.txt",sep="")
 ##merging datasets
 dat<-rbind(dat_train, dat_test)
 labels<-rbind(labels_train,labels_test)
-subjects<-rbind(subject_train,subject_test) 
+subjects<-rbind(subject_train,subject_test)  
 
 
 ##Subsetting dataset by extracting columns with means and stds only
